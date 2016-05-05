@@ -122,7 +122,7 @@ a {
 .content {
     color: #000000;
     font-family:'Cousine';
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     width: 600px;
 	  height: 450px;
@@ -139,6 +139,22 @@ a {
     -moz-column-gap: 30px;
     column-gap: 30px;
 
+}
+
+.contactcontent {
+    color: #000000;
+    font-family:'Cousine';
+    font-size: 12px;
+    font-weight: 400;
+    width: 600px;
+	  height: 450px;
+    margin-left: 150px;
+    line-height: 140%;
+
+	-ms-column-count:1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
 }
 
 .digital {
