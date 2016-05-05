@@ -97,6 +97,11 @@ a {
     font-weight: 700;
 }
 
+.active {
+    color: red;
+    font-weight: 700;
+}
+
 .nav li {
     text-decoration: none;
     padding-top: 2px;
@@ -114,14 +119,13 @@ a {
     margin-right: 30px;
 }
 
-
 .content {
     color: #000000;
     font-family:'Cousine';
     font-size: 10px;
     font-weight: 400;
     width: 600px;
-	  height: 200px;
+	  height: 450px;
     margin-left: 150px;
     line-height: 140%;
 
@@ -130,26 +134,11 @@ a {
     -moz-column-count: 3;
     column-count: 3;
 
-    -ms-column-gap:30px;
+  -ms-column-gap:30px;
     -webkit-column-gap: 30px;
     -moz-column-gap: 30px;
     column-gap: 30px;
-}
 
-.contact {
-    color: #000000;
-    font-family:'Cousine';
-    font-size: 10px;
-    font-weight: 400;
-    width: 600px;
-	  height: 200px;
-    margin-left: 150px;
-    line-height: 140%;
-
-	-ms-column-count:1;
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
 }
 
 .digital {
